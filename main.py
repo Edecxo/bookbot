@@ -9,7 +9,7 @@ def main():
     print(f"--- Begin report of {path} ---")
     print(f"{word_count} words found in the document\n")
     for item in char_freq_list:
-        print(item)
+        print(f"The '{item['letter']}' character was found {item['occured']} times")
     print("--- End report ---")
 
 def get_text(path):
